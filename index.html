@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/fakeloader.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/svg.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+
+    
+
+    <title>jQuery Sticky Menu</title>
+  </head>
+  <!-- scroll spy at body tag -->
+  <!-- <body data-spy="scroll" data-target=".navbar" data-offset="40"> -->
+  <body>
+<div id="fakeloader-overlay" class="visible incoming">
+  <div class="loader-wrapper-outer">
+    <div class="loader-wrapper-inner">
+      <div class="loader">
+        <!-- start https://loading.io/-->
+        <div class="loadingio-spinner-pulse-hedgu9884o8"><div class="ldio-agqjnyng44k">
+<div></div><div></div><div></div>
+</div></div>
+        <!-- end https://loading.io/ -->
+
+      </div>
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Brand</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#features">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#works">Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- <div data-spy="scroll" data-target="#navbar-example3" data-offset="0"> 
+-->
+<section class="vh" id="home">
+  <div class="container">
+    <div class="stroke">
+      <img class="my-5 w-100" src="images/mir_mohammad_abu_kyum.svg" alt="svg">
+    </div>
+  </div>
+</section>
+
+
+<section class="vh" id="about">
+  <img src="images/slide.jpg" class="w-100 thumbnail">
+</section>
+
+
+<section id="features">
+    <div class="arparallax">
+      <div class="imageContainer">
+      <video src="sample.mp4" autoplay="autoplay" loop="true" controls="true" class="cover"></video>
+      <!-- <video controls width="auto" height="auto" loop autoplay>
+        <source src="sample.mp4" type="video/mp4">
+      </video> -->
+      <!-- <div class="imageContainer"> 
+        <img src="images/slide.jpg" class="w-100">
+      </div> -->
+    </div>
+    </div>
+  <!-- <div class="container">
+    <h1 class="text-center my-5">Counter</h1>
+    <div class="row justify-content-center">
+      <div class="count col-12 col-md-3">150000</div>
+      <div class="count col-12 col-md-3">988888</div>
+      <div class="count col-12 col-md-3">444444</div>
+      <div class="count col-12 col-md-3">500000</div>
+    </div>
+  </div> -->
+</section>
+
+
+<section class="vh" id="works">
+  <div class="container py-5" data-js="filtering-demo">
+    <ul class="nav py-5 justify-content-center filter-button-group">
+      <li class="nav-item">
+        <button class="btn btn-dark rounded-pill px-5" data-filter="*">All</button>
+      </li><li class="nav-item">
+        <button class="btn btn-dark rounded-pill px-5" data-filter=".webdesign">Web Design</button>
+      </li><li class="nav-item">
+        <button class="btn btn-dark rounded-pill px-5" data-filter=".wordpress">Wordpress</button>
+      </li><li class="nav-item">
+        <button class="btn btn-dark rounded-pill px-5" data-filter=".theme">Theme Development</button>
+      </li><li class="nav-item">
+        <button class="btn btn-dark rounded-pill px-5" data-filter=".email">Email Template</button>
+      </li>
+    </ul>
+
+    <div class="row grid img-h">
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/bootstrap.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/css.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item wordpress">
+        <img src="images/works/database.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item wordpress">
+        <img src="images/works/datavisualisation.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/html.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/js.png" alt="image" class="w-100"> 
+      </div>
+      <div class="col-lg-3 element-item wordpress theme">
+        <img src="images/works/php.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item wordpress">
+        <img src="images/works/python.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/responsive.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/bg.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/bg1.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item webdesign">
+        <img src="images/works/one.jpg" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item email">
+        <img src="images/works/socialmedia.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item theme">
+        <img src="images/works/campaigns.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item theme">
+        <img src="images/works/seo.png" alt="image" class="w-100">
+      </div>
+      <div class="col-lg-3 element-item email">
+        <img src="images/works/graphic_design.png" alt="image" class="w-100">
+      </div>
+    </div>
+  </div>
+  
+</section>
+<section class="vh" id="gallery">
+  <!-- Swiper -->
+  <div class="container py-5" data-aos="zoom-out-down">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img class="w-100" src="images/attorneys01.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/attorneys02.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/attorneys03.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/attorneys04.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/team1.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/team2.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/team3.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/team4.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/wharwedo01.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/wharwedo02.png" alt="a"></div>
+      <div class="swiper-slide"><img class="w-100" src="images/wharwedo03.png" alt="a"></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  </div>
+</section>
+<section class="vh py-5" id="contact">
+  <div class="container">
+    <table class="table table-bordered table-dark" id="tbl">
+      <thead>
+        <tr>
+          <th>SI</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>01</td>
+          <td>Mahir</td>
+          <td>mahir@gmail.com</td>
+          <td>0175645455564</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Liha</td>
+          <td>liha@gmail.com</td>
+          <td>01756545545</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Najib</td>
+          <td>najib@gmail.com</td>
+          <td>01756654646546</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Fariba</td>
+          <td>fariba@gmail.com</td>
+          <td>017568748787</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Fahim</td>
+          <td>fahim@gmail.com</td>
+          <td>017787878787</td>
+        </tr>
+        <tr>
+          <td>06</td>
+          <td>Samia</td>
+          <td>samia@gmail.com</td>
+          <td>01748778787</td>
+        </tr>
+        <tr>
+          <td>07</td>
+          <td>Tawsif</td>
+          <td>tawsif@gmail.com</td>
+          <td>017787878778</td>
+        </tr>
+      </tbody>
+    </table>
+
+    
+  </div>
+  <div class="container bg-dark text-center">
+    <h1 class="display-3 text-center">Audio Section</h1>
+    <h5>Happy</h5>
+  <audio controls>
+          <source src="happy_life.mp3" type="audio/mp3">
+    </audio>
+    <h5>Urban</h5>
+    <audio controls>
+          <source src="urban.mp3" type="audio/mp3">
+    </audio>
+    <h5>lonely</h5>
+    <audio controls>
+          <source src="lonely.mp3" type="audio/mp3">
+    </audio>
+    <h5>Moment</h5>
+    <audio controls>
+          <source src="moment.mp3" type="audio/mp3">
+    </audio>
+    <h5>Paradise</h5>
+    <audio controls>
+          <source src="paradise.wav" type="audio/wav">
+    </audio>
+    <h5>Speed</h5>
+    <audio controls>
+          <source src="speed.wav" type="audio/wav">
+    </audio>
+    </div>
+</section>
+<!-- </div> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+
+    <!-- TypeError: Cannot read property 'swing' of undefined need to disable slim.js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script> -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<!-- isotope.min.js -->
+    <!-- isotope css or integration lagbe na, js o attr lage -->
+    <script src="js/isotope.min.js"></script>
+    <!-- isotope.min.js -->
+    <!-- fakeloader.js -->
+    <script src="js/fakeloader.min.js"></script>
+    <!-- fakeloader.js -->
+    <script>
+            $(function(){
+                    window.FakeLoader.init({ 
+                      // agulor jonno isotope kaj kore ni
+                      // fade_timeout: 200000,
+                      // wait_for_images: true,
+                      // wait_for_images_selector: 'body'
+                    });
+                });
+        </script>
+
+    <!-- fixed navbar with scrollspy -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/custom.js"></script>
+    <!-- fixed navbar with scrollspy -->
+
+    <!-- counterup -->
+    <script src="js/jquery.counterup.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+    
+    <!-- counterup -->
+
+    <!-- swiper.min.js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper.min.js -->
+
+
+
+
+    <!-- aos js -->
+    <script src="js/aos.js"></script>
+    <!-- aos js -->
+
+<!-- nicescroll -->
+<script src="js/jquery.nicescroll.min.js"></script>
+<!-- nicescroll -->
+
+<!-- ar parallax -->
+<script src="js/arparallax.min.js"></script>
+<!-- ar parallax -->
+
+
+
+
+<!-- simple parallax -->
+<script src="js/simpleParallax.js"></script>
+<!-- simple parallax -->
+
+<!-- table -->
+
+ 
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/dt-1.10.20/datatables.min.js"></script>
+<!-- table -->
+  
+
+
+    <script>
+      $(function(){
+        //scroll spy with smooth navbar
+        $(window).on("scroll",function(){
+            if($(window).scrollTop() > 200){
+              $(".navbar").addClass("bg-custom");
+            }else {
+              $(".navbar").removeClass("bg-custom");
+            }
+        });
+
+        //counter up
+        $(".count").counterUp({
+        delay:20,
+        time:1000
+        });
+
+
+      });
+    </script>
+    <!-- swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      grabCursor: true,
+      loop:true,
+      //do not stop
+      speed:10000,
+      autoplay: {
+      delay: 10,
+      disableOnInteraction: true,
+      },
+      effect: 'coverflow',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows : true,
+      },
+      slidesPerGroup: 1,
+      pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+      type: 'fraction',
+      },
+    });
+  </script>
+  <!-- swiper -->
+
+
+<!-- aos -->
+  <script>
+    $(function(){
+      $("section").attr({
+      "data-aos":"fade-up",
+    "data-aos-anchor-placement":"top-center"
+    });
+    AOS.init({
+      // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 50, // values from 0 to 3000, with step 50ms
+  duration: 1000, // values from 0 to 3000, with step 50ms
+  easing: 'ease-in-out', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: true, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger
+    });
+    });
+  </script>
+<script>
+      $(function(){
+        $("body").niceScroll({
+          cursorcolor: "orange",
+          cursorwidth: "20px",
+          cursorborder: "1px solid orange",
+          cursorborderradius: "25px",
+          //ideal 60-80
+          scrollspeed: 60, // scrolling speed
+          //ideal 40
+          mousescrollstep: 40, // scrolling speed with mouse wheel (pixel)
+          horizrailenabled: false
+        });
+      });
+    </script>
+
+    <script>
+      $(function(){
+        $('.arparallax').arparallax();
+      });
+    
+    </script> 
+
+    <!-- simple parallax -->
+    <script>
+      var image = document.getElementsByClassName('thumbnail');
+      new simpleParallax(image, {
+      scale: 1.6
+      });
+</script>
+
+<script>
+$(function() {
+    $('#tbl').DataTable( {
+        initComplete: function () {
+            this.api().columns().every( function () {
+                var column = this;
+                var select = $('<select><option value=""></option></select>')
+                    .appendTo( $(column.footer()).empty() )
+                    .on( 'change', function () {
+                        var val = $.fn.dataTable.util.escapeRegex(
+                            $(this).val()
+                        );
+ 
+                        column
+                            .search( val ? '^'+val+'$' : '', true, false )
+                            .draw();
+                    } );
+ 
+                column.data().unique().sort().each( function ( d, j ) {
+                    select.append( '<option value="'+d+'">'+d+'</option>' )
+                } );
+            } );
+        }
+    } );
+} );
+</script>
+  </body>
+</html>

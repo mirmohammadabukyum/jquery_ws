@@ -1,0 +1,36 @@
+.stroke{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 80%;
+}
+path{
+	fill: #fff;
+	stroke: #fff;
+	stroke-dasharray: 800;
+	opacity: 1;
+	animation: ani 10s;
+}
+
+@keyframes ani{
+	0%{
+	fill: none;
+	stroke: #fff;
+	stroke-dashoffset: 800;
+	opacity: 0;
+	}
+	20%{
+	fill: none;
+	stroke: #fff;
+	stroke-dashoffset: 800;
+	opacity: 0;
+	}
+	90%{
+	fill: rgba(255.255,255,0);
+	}
+	100%{
+	fill: rgba(250,112,112,1);
+	opacity: 1;
+	}
+}
